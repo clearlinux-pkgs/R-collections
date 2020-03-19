@@ -4,7 +4,7 @@
 #
 Name     : R-collections
 Version  : 0.2.5
-Release  : 2
+Release  : 3
 URL      : https://cran.r-project.org/src/contrib/collections_0.2.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/collections_0.2.5.tar.gz
 Summary  : High Performance Container Data Types
