@@ -4,7 +4,7 @@
 #
 Name     : R-collections
 Version  : 0.3.1
-Release  : 5
+Release  : 6
 URL      : https://cran.r-project.org/src/contrib/collections_0.3.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/collections_0.3.1.tar.gz
 Summary  : High Performance Container Data Types
@@ -33,10 +33,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1588305750
+export SOURCE_DATE_EPOCH=1589529516
 
 %install
-export SOURCE_DATE_EPOCH=1588305750
+export SOURCE_DATE_EPOCH=1589529516
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
