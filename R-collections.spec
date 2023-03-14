@@ -4,7 +4,7 @@
 #
 Name     : R-collections
 Version  : 0.3.7
-Release  : 30
+Release  : 31
 URL      : https://cran.r-project.org/src/contrib/collections_0.3.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/collections_0.3.7.tar.gz
 Summary  : High Performance Container Data Types
@@ -12,9 +12,6 @@ Group    : Development/Tools
 License  : MIT
 Requires: R-collections-lib = %{version}-%{release}
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 as queues, stacks, deques, dicts and ordered dicts. Benchmarks
@@ -36,10 +33,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1672970556
+export SOURCE_DATE_EPOCH=1678813249
 
 %install
-export SOURCE_DATE_EPOCH=1672970556
+export SOURCE_DATE_EPOCH=1678813249
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
